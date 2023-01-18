@@ -1,0 +1,43 @@
+body{
+    background: rgb(66, 111, 236);
+}
+.profile{
+    padding: 100px 0;
+}
+.card{
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    border-radius: 11px;
+}
+.img1 img{
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 100%;
+}
+
+.img2 img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    width: 140px;
+    border-radius: 50%;
+    border: 5px solid green;
+    margin-top: -75px;
+}
+.card:hover .img2 img{
+    border-color: red;
+    transition: 1s;
+}
+.main-text{
+    padding: 10px;
+}
+
+.social i{
+    color: rgb(139, 0, 0);
+    padding: 0 10px;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
